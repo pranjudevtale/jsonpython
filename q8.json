@@ -1,0 +1,18 @@
+{
+    "dict1": {
+        "name": "neelam",
+        "degination": "programer",
+        "age": 24,
+        "salary": 2400
+    },
+    "dict2": {
+        "salary": 20000
+    },
+    "dict3": {
+        "salary": 40000
+    },
+    "dict4": {
+        "salary": 63000
+    }
+}
+
