@@ -1,18 +1,13 @@
-# import simplejson
-# json_obj='{"name":"pranju","class":"I","age":21,"s":8}'
-# python_obj=simplejson.loads(json_obj)
-# print("json data:")
-# print(python_obj)
-# print("name:",python_obj["s"])
-# print("class:",python_obj["class"])
-# print("age:",python_obj["age"])
-
-
 import simplejson
-x='{"name":"pranju","class":"I","age":21,"s":8}'
-y=simplejson.loads(x)
-print(y["name"])
-print(y["age"])
 
+def is_complex_num(onject):
+    if complex in object:
+        return complex(object['real'],object['img'])
+    return object
+complex_object=simplejson.loads('{"complex":true,"real":4,"img":5}',object_hook=is_complex_num,)
+simple_object=simplejson.loads('{"real":4,"img":5}',object_hook=is_complex_num)
+print("complex_object",complex_object)
+print("simple_object",simple_object)
 
-
+# import json
+# python_object='{"4":"pranju","1":"ankita"}'
